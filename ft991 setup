@@ -9,3 +9,5 @@ use the Pop Shop to get
 For radios using a standard silicon labs usb dual port connection linux has the driver already isntalled in the package.  the port to connect to will be USB0 or USB1 depending what else you have connected or how many radios you have connected.
 CQRLog has the choice of saving your Data on your own computer or into a sql server,  I chose the second option as I believe its best to have your data protected.  
 CQRLog has great instructions on inegrating wsjt-x and fldigi into it for logging purposes.  WSJT inegration requires the use of the WSJT-X Reference UDP Message Agregator Server, it is automatticaly installed when installing wsjt-x.  configuration of ports will be nessisary to work properly,  also there is a way to get this to post who you are working on HamClock. will go over this in a different readme.
+For the Audio to get into and out of the programs you will want to select the audio codec lines.  
+if you have trouble figuring out the setting of your radio i had good luck with Grig,  its a basic cat interface that auto detects setting and you can use those setting in your programs to connect the programs to the radio.
