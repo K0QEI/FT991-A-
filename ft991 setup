@@ -1,0 +1,11 @@
+Linux OS used   PopOS
+Radio FT991(A)
+sudo apt update
+sudo apt upgrade
+use the Pop Shop to get 
+	CQRLog
+	WSJT-X
+	FLDIGI
+For radios using a standard silicon labs usb dual port connection linux has the driver already isntalled in the package.  the port to connect to will be USB0 or USB1 depending what else you have connected or how many radios you have connected.
+CQRLog has the choice of saving your Data on your own computer or into a sql server,  I chose the second option as I believe its best to have your data protected.  
+CQRLog has great instructions on inegrating wsjt-x and fldigi into it for logging purposes.  WSJT inegration requires the use of the WSJT-X Reference UDP Message Agregator Server, it is automatticaly installed when installing wsjt-x.  configuration of ports will be nessisary to work properly,  also there is a way to get this to post who you are working on HamClock. will go over this in a different readme.
