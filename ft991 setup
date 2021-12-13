@@ -11,3 +11,9 @@ CQRLog has the choice of saving your Data on your own computer or into a sql ser
 CQRLog has great instructions on inegrating wsjt-x and fldigi into it for logging purposes.  WSJT inegration requires the use of the WSJT-X Reference UDP Message Agregator Server, it is automatticaly installed when installing wsjt-x.  configuration of ports will be nessisary to work properly,  also there is a way to get this to post who you are working on HamClock. will go over this in a different readme.
 For the Audio to get into and out of the programs you will want to select the audio codec lines.  
 if you have trouble figuring out the setting of your radio i had good luck with Grig,  its a basic cat interface that auto detects setting and you can use those setting in your programs to connect the programs to the radio.
+If you wish to use HamClock and have it integrated into your system.	
+	download Hamclock and get it set up for auto launch.
+	in WSJT-X change the UDP Server address to 192.168.1.255 
+	in HamClock put WSJT-X all caps into the cluster address and set the port number accordingly
+	in CQRLog you will need to also adjust the IP for the UDP server to 192.168.1.255
+if set up correctly,  as you click on calls to work your DX marker will move to who you are working. you will also not lose the the ability to log contacts automatically.
